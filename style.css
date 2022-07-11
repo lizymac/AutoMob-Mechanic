@@ -1,0 +1,143 @@
+header{
+    background-color: #1363DF;
+    color: #ffffff;
+    padding: 7px 0 7px 0;   
+}
+
+header a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+header a:hover{
+    color: black;
+}
+
+/* header ul{
+    margin: 0;
+    padding: 0;
+} */
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding:hover{
+    cursor: pointer;
+}
+
+header nav{
+    float: right;
+    margin-top: -35px;
+}
+
+
+aside .intro-img{
+    width: 40%;
+    height: 20rem;
+    margin: 50px 0 0 40px;
+    float: left;
+    /* border: 5px solid red; */
+}
+
+.main-section{
+    font-size: 16px;
+    width: 50%;
+    height: auto;
+    float: right;
+    margin: 10px 30px 0 0;
+}
+
+.main button{
+    margin: 2% 0 0 18%;
+    outline: none;
+    border: none;
+    padding: 10px 10px;
+    background-color: #1363DF;
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+
+.main button:hover{
+    background-color: black;
+    color: #ffffff;
+}
+
+footer{
+    background-color: #1363DF;
+    color: #ffffff;
+    height: 2rem;
+    margin-top: 39px;
+}
+ footer p{
+    text-align: center;
+    /* margin: 10px 0 0 0; */
+    padding: 2px 2px ;
+ }
+
+
+ /* login page CSS */
+ .main-login{
+    /* border: 3px solid red; */
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 10px 15px 0;
+    margin: 4% 5% 0 25%;
+    
+ }
+
+ .login-form{
+    /* border: 2px solid #1363DF; */
+    padding: 50px 90px;
+    border-radius: 5px;
+ }
+
+ .login-form h1{
+    color: #1363DF;
+    text-align: center;
+    padding: 10px;
+    margin: -30px 0 20px 0;
+    
+ }
+
+ .login-form {
+    padding: 30px 30px;
+ }
+
+ button.login{
+    margin: 0 0 8.2% 46%;
+    outline: none;
+    border: none;
+    padding: 5px 20px;
+    background-color: #1363DF;
+    color: #ffffff;
+    border-radius: 2px;
+ }
+
+ .form-input{
+    padding: 2px;
+ } 
+
+ /* Service Page CSS */
+ .main-services{
+    margin: 0 2% 0 2%;
+    /* border: 2px solid red; */
+}
+
+.main-services h4{
+    margin: 20px 0 10px 0; 
+}
+
+.offer-countdown{
+    margin-top: 10px;
+    margin-bottom: -25px;
+    color: red;
+}
